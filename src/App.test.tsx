@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-testing-library';
 import App from './App';
+import './locales/i18n';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+    const { queryByText } = render(<App />);
+    const reactLink = queryByText('Learn React');
+    expect(reactLink).toBeTruthy();
 });
