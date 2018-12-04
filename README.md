@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Technologies
+
+- [Reactjs](https://reactjs.org/)
+- [React Router](https://reacttraining.com/react-router/)
+- [i18next-react](https://react.i18next.com/)
+- [React-testing-library](https://github.com/kentcdodds/react-testing-library)
+- [Mobx](https://github.com/mobxjs/mobx)
+- [Mobx-state-tree](https://github.com/mobxjs/mobx-state-tree)
+
 ## Available Scripts
 
 In the project directory, you can run:

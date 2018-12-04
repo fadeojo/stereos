@@ -1,5 +1,5 @@
 const common = {
-    name: 'Cargo',
+    name: 'Stereos',
 };
 
 export default common;

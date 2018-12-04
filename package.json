@@ -1,5 +1,5 @@
 {
-    "name": "cargo",
+    "name": "stereos",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -11,6 +11,10 @@
     "dependencies": {
         "i18next": "^10.5.0",
         "i18next-browser-languagedetector": "^2.1.0",
+        "mobx": "^5.7.0",
+        "mobx-react": "^5.0.0",
+        "mobx-react-router": "^4.0.5",
+        "mobx-state-tree": "^3.7.0",
         "react": "^16.6.1",
         "react-dom": "^16.6.1",
         "react-i18next": "^8.3.8",
