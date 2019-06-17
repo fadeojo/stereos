@@ -15,7 +15,6 @@ i18n
         fallbackLng: 'en',
         ns: ['common', 'errors'],
         defaultNS: 'common',
-        debug: true,
         resources: {
             en,
             'en-US': en,
